@@ -1,35 +1,5 @@
-﻿Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@yasinagirbas 
-tansu38
-/
-odev_1-csharp
-Public
-Fork your own copy of tansu38/odev_1-csharp
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-odev_1-csharp/Program.cs /
-
-tansu dogan ilk commit
-Latest commit 40b683f on Feb 21
- History
- 0 contributors
-90 lines (73 sloc)  3.64 KB
-
+﻿
 // Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girmesini isteyin(n). Sonrasında kullanıcıdan n adet pozitif sayı girmesini isteyin. Kullanıcının girmiş olduğu sayılardan çift olanlar console'a yazdırın.
-
-
 Console.WriteLine("*****Çift sayi olanları bulma*****\n");
 Console.Write("Girmek istediğiniz sayı adetini giriniz:");
 
@@ -96,14 +66,11 @@ for(int i=0;i<kelimeSayisi;i++)
     kelimeDizisi[i] = Console.ReadLine();
 }
 Array.Reverse(kelimeDizisi);
-
 Console.Write("\nKelimelerin sondan başa doğru tekrar sıralanmış hali:\n --> ");
 for(int i=0;i<kelimeSayisi;i++)
 {
     Console.Write($"{kelimeDizisi[i]} ");
 }
-
-
 // Bir konsol uygulamasında kullanıcıdan bir cümle yazması isteyin. Cümledeki toplam kelime ve harf sayısını console'a yazdırın.
 
 Console.WriteLine("\n\n***Bir cümledeki kelime ve harf sayısını bulma***\n");
@@ -117,18 +84,3 @@ Console.WriteLine($"Cümledeki kelime sayısı: {kelimeler.Count()}");
 Console.WriteLine($"Cümledeki harf sayısı: {harf.Count()}");
 
 Console.WriteLine("\n*****Programın Sonu*****\n");
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-odev_1-csharp/Program.cs at main · tansu38/odev_1-csharp
